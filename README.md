@@ -15,6 +15,17 @@ gems:
 
 ## Usage
 
+```ruby
+ {% youtube "https://www.youtube.com/watch?v=abcd5678" %}
+```
+
+You can also use
+
+```ruby
+{% youtube "https://www.youtube.com/embed/abcd5678" %}
+{% youtube "https://youtu.be/abcd5678" %}
+```
+
 ## Result
 
 ## TODO
