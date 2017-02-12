@@ -19,4 +19,4 @@ gems:
 
 ## TODO
 
-## Feedback/Contributing
+## Feedback/Contributing- [ ] Bug hunt.
