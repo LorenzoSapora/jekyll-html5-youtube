@@ -50,3 +50,13 @@ Example ``youtube.html``:
 - [ ] Support for playlists.
 - [ ] Support for channel information display.
 - [ ] Bug hunt.
+
+## Feedback/Contributing
+
+Any direct feedback can be given here:
+
+[https://knowbl.co/contact/](https://knowbl.co/contact/)
+
+Or raise an issue
+
+[https://github.com/knowbl/jekyll-html5-youtube/issues](https://github.com/knowbl/jekyll-html5-youtube/issues)
