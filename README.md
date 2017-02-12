@@ -28,6 +28,23 @@ You can also use
 
 ## Result
 
+By default the plugin will output
+
+
+```html
+<div class="embed-container">
+  <object data="https://www.youtube.com/embed/abcd5678"></object>
+</div>
+```
+
+You can write your own snippet by creating a file in ``_includes`` called ``youtube.html``. The YouTube ID is displayed using ``{{ youtube_id }}``.
+
+Example ``youtube.html``:
+
+```ruby
+<object data="https://www.youtube.com/embed/{{ youtube_id }}" style="width:100%;height:100vh"></object>
+```
+
 ## TODO
 
 ## Feedback/Contributing- [ ] Bug hunt.
