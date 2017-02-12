@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["lorenzo.sapora@gmail.com"]
 
   spec.summary       = %q{Jekyll plugin to generate html5 snippets for embedding YouTube videos, without iframes.}
-  spec.description   = %q{Jekyll plugin to generate html5 snippets for embedding YouTube videos, without iframes.}
+  spec.description   = %q{Add {% youtube https://youtube.com/?v=12345678 %} to any page, or post. Check README for more information, and installation instructions.}
   spec.homepage      = "https://github.com/knowbl/jekyll-html5-youtube"
   spec.license       = "MIT"
 
