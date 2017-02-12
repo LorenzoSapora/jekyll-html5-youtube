@@ -1,5 +1,7 @@
 # Jekyll HTML5 Youtube
 
+Jekyll plugin to generate clean html5 snippets for embedding YouTube videos, without iframes.
+
 ## Installation
 
 ```bash
@@ -29,7 +31,6 @@ You can also use
 ## Result
 
 By default the plugin will output
-
 
 ```html
 <div class="embed-container">
