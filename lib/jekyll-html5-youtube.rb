@@ -16,8 +16,15 @@ class YouTubeEmbed < Liquid::Tag
       youtube_url[/^.*((v\/)|(embed\/)|(watch\?))\??v?=?([^\&\?]*).*/]
       @youtube_id = $5
     end
-  
-    %Q{<div class='embed-container'><object data="http://www.youtube.com/embed/#{ @youtube_id }"></object></div>}
+    
+    includes_path = File.join Dir.pwd, "_includes", "youtube.html"
+    if File.exist?(includes_path)
+      includes = File.read includes_path
+      site = context.registers[:site]
+      includes = (Liquid::Template.parse includes).render site.site_payload.merge!({"youtube_id" => @youtube_id})
+    else
+      %Q{<div class='embed-container'><object data="http://www.youtube.com/embed/#{ @youtube_id }"></object></div>}
+    end
   end
 
   Liquid::Template.register_tag "youtube", self
