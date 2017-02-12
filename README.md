@@ -48,4 +48,5 @@ Example ``youtube.html``:
 ## TODO
 
 - [ ] Support for playlists.
+- [ ] Support for channel information display.
 - [ ] Bug hunt.
