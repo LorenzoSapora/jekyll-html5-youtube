@@ -48,3 +48,4 @@ Example ``youtube.html``:
 ## TODO
 
 ## Feedback/Contributing- [ ] Bug hunt.
+- [ ] Support for playlists.
