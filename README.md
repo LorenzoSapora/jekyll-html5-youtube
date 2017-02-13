@@ -64,3 +64,12 @@ Any direct feedback can be given here:
 Or raise an issue
 
 [https://github.com/knowbl/jekyll-html5-youtube/issues](https://github.com/knowbl/jekyll-html5-youtube/issues)
+
+## AUTHOR
+
+Written by [Lorenzo Sapora](https://sush.us) for [Knowbl](https://knowbl.co).
+
+- [Blog](https://sush.us/)
+- [Github](https://github.com/lorenzosapora/)
+- [Gitlab mirror](https://git.knowbl.co/public)
+- [Twitter](https://twitter.com/lorenzosapora)
