@@ -58,6 +58,7 @@ Example ``youtube.html``:
 ## TODO
 
 - [x] Add examples.
+- [ ] Support for timecode feature.
 - [ ] Support for playlists.
 - [ ] Support for channel information display.
 - [ ] Bug hunt.
