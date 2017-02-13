@@ -57,7 +57,7 @@ Example ``youtube.html``:
 
 ## TODO
 
-- [ ] Add examples.
+- [x] Add examples.
 - [ ] Support for playlists.
 - [ ] Support for channel information display.
 - [ ] Bug hunt.
