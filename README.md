@@ -55,6 +55,14 @@ Example ``youtube.html``:
 <object data="https://www.youtube.com/embed/{{ youtube_id }}" style="width:100%;height:100vh"></object>
 ```
 
+## Examples
+
+For troubleshooting, or just a quick start using ``jekyll-html5-youtube``, you can look inside the ``examples`` folder.
+
+``examples/default`` is using the default output.
+
+``examples/custom`` is a custom output for the partial, using ``_includes/youtube.html``. 
+
 ## TODO
 
 - [x] Add examples.
