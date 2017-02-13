@@ -10,10 +10,10 @@ class YouTubeEmbed < Liquid::Tag
 
   def render(context)
     youtube_url = "#{context[@text.strip]}"
-    if youtube_url[/youtu\.be\/([^\?]*)/]
+    if youtube_url[/youtu\.be\/([^*]*)/]
       @youtube_id = $1
     else
-      youtube_url[/^.*((v\/)|(embed\/)|(watch\?))\??v?=?([^\&\?]*).*/]
+      youtube_url[/^.*((v\/)|(embed\/)|(watch\?))\??v?=?([^\*\?]*).*/]
       @youtube_id = $5
     end
     
