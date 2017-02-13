@@ -4,6 +4,14 @@
 
 Jekyll plugin to generate clean html5 snippets for embedding YouTube videos, without iframes.
 
+## Table of contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Result](#result)
+  * [Examples](#examples)
+  * [Author](#author)
+
 ## Installation
 
 ```bash
