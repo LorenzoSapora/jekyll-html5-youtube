@@ -1,5 +1,7 @@
 # Jekyll HTML5 Youtube
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-html5-youtube.svg)](https://badge.fury.io/rb/jekyll-html5-youtube)
+
 Jekyll plugin to generate clean html5 snippets for embedding YouTube videos, without iframes.
 
 ## Installation
