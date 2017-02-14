@@ -41,7 +41,13 @@ add this to your CSS file
 You can also use
 
 ```ruby
+# Playlists
+{% youtube "https://www.youtube.com/embed/abcd5678?list=abcd5678" %}
+
+# Share/embeds
 {% youtube "https://www.youtube.com/embed/abcd5678" %}
+
+# Short URLs
 {% youtube "https://youtu.be/abcd5678" %}
 ```
 
