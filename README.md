@@ -75,7 +75,7 @@ For troubleshooting, or just a quick start using ``jekyll-html5-youtube``, you c
 
 - [x] Add examples.
 - [x] Support for timecode feature.
-- [ ] Support for playlists.
+- [x] Support for playlists.
 - [ ] Support for channel information display.
 - [ ] Bug hunt.
 
