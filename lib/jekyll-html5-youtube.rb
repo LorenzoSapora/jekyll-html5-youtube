@@ -23,7 +23,7 @@ class YouTubeEmbed < Liquid::Tag
       site = context.registers[:site]
       includes = (Liquid::Template.parse includes).render site.site_payload.merge!({"youtube_id" => @youtube_id})
     else
-      %Q{<div class='embed-container'>\n<object data="https://www.youtube.com/embed/#{ @youtube_id }"></object>\n</div>}
+      %Q{<div class="embed-container">\n<object data="https://www.youtube.com/embed/#{ @youtube_id }"></object>\n</div>}
     end
   end
 
