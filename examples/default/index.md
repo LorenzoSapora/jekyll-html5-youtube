@@ -10,4 +10,18 @@ layout: home
 .embed-container object{position:absolute;top:0;left:0;width:100%;height:100%}
 </style>
 
+## Normal URL
+
+{% youtube "https://www.youtube.com/watch?v=NM2wtte1JRE" %}
+
+## Short URL
+
 {% youtube "https://youtu.be/NM2wtte1JRE" %}
+
+## Share/embed URL
+
+{% youtube "https://www.youtube.com/embed/NM2wtte1JRE" %}
+
+## Playlist URL
+
+{% youtube "https://www.youtube.com/watch?v=uzSiDzREF-A&list=PLJ_00oNJnOQOlxLK0ZPMVyatogu2SncNW" %}
