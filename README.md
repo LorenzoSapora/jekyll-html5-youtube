@@ -4,6 +4,10 @@
 
 Jekyll plugin to generate clean html5 snippets for embedding YouTube videos, without iframes.
 
+## Canonical source
+
+The canonical source of Jekyll HTML5 Youtube is hosted on [https://git.knowbl.co/dev/jekyll-html5-youtube/](git.knowbl.co).
+
 ## Table of contents
 
   * [Installation](#installation)
