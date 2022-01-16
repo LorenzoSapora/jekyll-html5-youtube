@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "jekyll", "~> 3.4"
-  spec.add_development_dependency "bundler", "~> 1.14"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_dependency "jekyll", ">= 3.4", "<5.0.0"
+  spec.add_development_dependency "bundler", ">= 1.14", "<3.0.0"
+  spec.add_development_dependency "rake", "> 10.0", "<14.0.0"
 end
